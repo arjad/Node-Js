@@ -1,0 +1,39 @@
+.vid{
+    height:140%;
+    width:100%;
+    position: absolute;
+    filter: blur(13px);
+}
+.vid_div{
+    height: 500px;
+    width:100%;
+    /* border: 1px solid red; */
+    position: relative;
+    overflow: hidden;
+    z-index: -100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vid_div h1,p,button{
+    z-index: 99;
+    /* margin-top: 60px; */
+    /* position: absolute; */
+    color: black;
+    text-align: center;
+}
+.vid_div h1{
+    font-size: 50px;
+}
+
+.utton{
+    height:40px;
+    width:200px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    transform: scale(1.1);
+}

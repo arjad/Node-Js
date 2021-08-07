@@ -1,0 +1,65 @@
+.d10{
+    height: 500px;
+    width: 100%;
+    background: navy;
+    position: relative;
+    color:white;
+}
+.ab{
+    color: white;
+    height: 100%;
+    width: 450px;
+    position: absolute;
+    top:150px;
+    left: 70px;
+}
+.ab2{
+    color: white;
+    height: 150%;
+    width: 450px;
+    position: absolute;
+    top:150px;
+    left: 520px;
+}
+.ab3{
+    color: white;
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    top:150px;
+    left: 970px;
+}
+.d10 p{
+    font-size: 13px;
+    color:white;
+    text-align: left;
+
+
+}
+.d10 h3{
+    color:lightblue;
+}
+.t{
+    height: 30px;
+    width:400px;
+    margin-top: 30px;
+    color:white;
+
+}
+.t:hover{
+    box-shadow: 0px 0px 30px 5px white;
+    cursor: pointer;
+}
+.t:focus{
+    box-shadow: 0px 0px 10px 10px white;
+}
+.d10 button{
+    height: 35px;
+    width: 40px;
+    background: lightblue;
+    color:white;
+    text-align: center;
+    display: block;
+    margin-left: 404px;
+    margin-top: -36px;
+}
