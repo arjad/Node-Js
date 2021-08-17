@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1d381cab2c.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="wave one"></div>
+        <div class="wave two"></div>
+        <div class="wave three"></div>
+    
+       
+        <div id="weather"> 
+            <i style="color:yellow" class="fas fa-sun"></i>
+
+        </div>
+
+        <div class="info">
+            
+            <h2 class="city"><i class="fas fa-street-view"></i> {%city%}</h2>
+
+            <p id="date" class="demo"> date</p>
+            <p id="temp"> {%tempval%}</p>
+            <p id="minmax">  {%tempmin%} ,  {%tempmax%}</p>
+
+
+
+        </div>
+
+    </div>
+</body>
+
+<script>
+    const d = new Date();
+    document.getElementsByClassName("demo")[0].innerHTML = d;
+</script>
+    
+</html>
